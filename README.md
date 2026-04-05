@@ -1,4 +1,5 @@
 # City-Level Hotel Insight Dashboard
+
 An interactive business intelligence dashboard designed to analyze hotel booking patterns, city-wise spending behavior, and accommodation demand to support travel cost optimization and location-based planning.
 
 ## Objective
