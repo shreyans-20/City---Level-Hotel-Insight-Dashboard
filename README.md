@@ -75,3 +75,9 @@ Slice data by month, region, city, travel purpose, and device.
 ---
 
 ## 💼 Business Impact
+Area	Insight
+💰 Cost Control	Pinpoints high-spend cities for targeted budget management
+🗺 Travel Planning	Reveals demand patterns to improve booking strategies
+📋 Budget Allocation	Enables accurate forecasting of accommodation expenses
+📌 Policy Optimization	Standardizes room selection and travel purpose spending
+👁 Operational Visibility	Centralized monitoring of hotel booking behavior across all locations
