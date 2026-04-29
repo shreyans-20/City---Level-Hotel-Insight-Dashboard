@@ -1,86 +1,81 @@
 # City-Level Hotel Insight Dashboard
 
-An interactive business intelligence dashboard designed to analyze hotel booking patterns, city-wise spending behavior, and accommodation demand to support travel cost optimization and location-based planning.
+An interactive Power BI dashboard analyzing hotel booking patterns, city-wise spending behavior, and accommodation demand — built during my internship at TripTrip India to support travel cost optimization and location-based planning.
 
-## Objective
+---
 
-Provides centralized visibility into hotel booking expenditure across cities, travel purposes, and accommodation types transforming raw data into actionable insights for cost control and travel planning optimization.
+## 🎯 Objective
+
+Corporate travel teams managing bookings across multiple cities rarely have a unified view of where money is going, which destinations are overpriced, and how travel purpose affects accommodation costs.
+
+This dashboard centralizes hotel booking expenditure across cities, travel purposes, and accommodation types — turning raw booking data into actionable cost control and planning decisions.
 
 ---
 
 ## 🛠 Tech Stack
 
 | Tool | Purpose |
-| --- | --- |
-| 📊 Power BI Desktop | Data visualization & reporting |
-| 📂 Power Query | Data cleaning & transformation |
-| 🧠 DAX | KPI & performance metrics |
-| 🧩 Data Modeling | Relationships between cities, bookings & travel purpose |
-| 📁 File Format | .pbix for development & reporting |
+|---|---|
+| Power BI Desktop | Data visualization & reporting |
+| Power Query | Data cleaning & transformation |
+| DAX | KPI & performance metrics |
+| Data Modeling | Relationships between cities, bookings & travel purpose |
+| File Format | `.pbix` |
 
 ---
 
 ## 📂 Data Source
 
-Corporate hotel booking dataset covering accommodation usage across multiple travel destinations, including:
+Corporate hotel booking dataset covering accommodation usage across multiple travel destinations:
 
 - City-wise hotel spending
 - Booking volume & room nights
 - Average room rate
-- Travel purpose (conference, training, business meetings, etc.)
-- Accommodation types (single, double, suite, deluxe)
+- Travel purpose — conference, training, business meetings, client visits
+- Accommodation types — single, double, suite, deluxe
 - Regional & time-based booking patterns
-
----
-
-## 🎯 Dashboard Goals
-
-- Track total hotel spending and booking activity
-- Identify high-cost travel destinations
-- Analyze booking demand by city
-- Evaluate pricing variation by travel purpose
-- Support accommodation cost optimization
 
 ---
 
 ## 📊 Key Visuals
 
-### 1. Executive KPI Panel
+**1. Executive KPI Panel**  
+Total spend · average room rate · total bookings · room nights — overall performance above the fold.
 
-Total spend, average room rate, bookings, and room nights overall performance at a glance.
+**2. Total Spend by City** *(Pareto Chart)*  
+Highlights the highest-cost travel destinations and their cumulative share of total spend.
 
-### 2. Total Spend by City *(Pareto Chart)*
-
-Highlights the highest-cost travel destinations.
-
-### 3. Total Bookings by City *(Bar Chart)*
-
+**3. Total Bookings by City** *(Bar Chart)*  
 Ranks cities by booking volume to surface high-demand locations.
 
-### 4. Avg. Rate by Travel Purpose *(Line Chart)*
+**4. Avg. Rate by Travel Purpose** *(Line Chart)*  
+Pricing variation across conferences, client meetings, and internal travel.
 
-Shows pricing variation across conferences, client meetings, and internal travel.
-
-### 5. City-wise Spend Distribution *(Donut Chart)*
-
+**5. City-wise Spend Distribution** *(Donut Chart)*  
 Proportional cost contribution per city.
 
-### 6. Room Type Distribution
+**6. Room Type Distribution**  
+Compares usage of single, double, suite, and deluxe rooms across locations.
 
-Compares usage of single, double, suite, and deluxe rooms.
-
-### 7. Interactive Filters
-
-Slice data by month, region, city, travel purpose, and device.
+**7. Interactive Filters**  
+Slice by month, region, city, travel purpose, and accommodation type.
 
 ---
 
 ## 💼 Business Impact
 
-| Area | Insight |
-| --- | --- |
-| 💰 Cost Control | Pinpoints high-spend cities for targeted budget management |
-| 🗺 Travel Planning | Reveals demand patterns to improve booking strategies |
-| 📋 Budget Allocation | Enables accurate forecasting of accommodation expenses |
-| 📌 Policy Optimization | Standardizes room selection and travel purpose spending |
-| 👁 Operational Visibility | Centralized monitoring of hotel booking behavior across all locations |
+| Area | What It Enables |
+|---|---|
+| Cost Control | Pinpoints high-spend cities for targeted budget management |
+| Travel Planning | Reveals demand patterns to improve booking strategies |
+| Budget Allocation | Enables accurate forecasting of accommodation expenses |
+| Policy Optimization | Standardizes room selection and travel purpose spending |
+| Operational Visibility | Centralized monitoring of hotel booking behavior across all locations |
+
+---
+
+## 👤 Built by
+
+**Shreyans Jain** — Business Analyst · Power BI Developer  
+Internship Project @ TripTrip India (B2B Corporate Travel Platform)  
+[LinkedIn](https://www.linkedin.com/in/shreyansjainn/) · [Portfolio](https://www.notion.so/Shreyans-Jain-s-Portfolio-2e748001fb70801e9400d5a0adc59544) · [GitHub](https://github.com/shreyans-20)
